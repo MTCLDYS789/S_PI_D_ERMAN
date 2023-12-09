@@ -10,3 +10,4 @@
 ####非全站劫持版本1.1 2023/12/09
 
 把内容(neirong.html)里的 《a href="http://xxx/innovation/kAWads.html"》改成了 《.a href="./kAWads.html"》原因是防止蜘蛛认为带host的href是外联(之所以不带innovation了是因为neirong.html肯定是在./innovation目录下的)
+还改了下image js 这些路径 因为有/innovation目录的远古所以，这些都要加上../
